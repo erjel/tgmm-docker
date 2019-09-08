@@ -4,7 +4,7 @@
 
 Automated DockerHub builds for the TGMM (Tracking with Gaussian Mixture Models) software developed in the [Keller lab](https://www.janelia.org/lab/keller-lab).
 
-`docker run -it nclack/tgmm:latest`
+`docker run -rm -it nclack/tgmm:latest`
 
 ## About
 
