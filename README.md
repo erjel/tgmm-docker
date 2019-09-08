@@ -20,7 +20,7 @@ For more information see the references below.
 2. Different branches here correspond with Dockerfiles based on different nvidia/cuda containers.
 
 ## Contents of docker container
-
+```
 tgmm/
 |-- bin
 |   |-- GentleBoost_PrecRecallCurve
@@ -46,7 +46,7 @@ tgmm/
     `-- WatershedWithPersistanceAgglomeration_Test
 
 4 directories, 18 files
-
+```
 ## References
 
 [TGMM Repository](https://bitbucket.org/fernandoamat/tgmm-paper)
