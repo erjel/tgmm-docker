@@ -19,6 +19,34 @@ For more information see the references below.
 1. Any tags on this repository build corresponding tagged docker images.
 2. Different branches here correspond with Dockerfiles based on different nvidia/cuda containers.
 
+## Contents of docker container
+
+tgmm/
+|-- bin
+|   |-- GentleBoost_PrecRecallCurve
+|   |-- ProcessStack
+|   |-- ProcessStack_woGPU
+|   |-- TGMM
+|   |-- classifierBackgroundTracks.txt
+|   |-- classifierCellDivision.txt
+|   |-- classifierCellDivisionWithTemporalWindow.txt
+|   |-- trainCellDivision
+|   `-- trainCellDivisionWithTemporalWindow
+|-- doc
+|   `-- quickstart.txt
+|-- lib
+|   |-- libHierarchicalSegmentationPBC.a
+|   |-- libMedianFilter2D_CUDAlib.a
+|   |-- libTemporalLogicalRules.a
+|   |-- libTemporalLogicalRules_woCUDA.a
+|   |-- libellipticalHaarFeatures.a
+|   `-- libtrainCellDivisionWithTemporalWindowLib.a
+`-- test
+    |-- MedianFilter2D
+    `-- WatershedWithPersistanceAgglomeration_Test
+
+4 directories, 18 files
+
 ## References
 
 [TGMM Repository](https://bitbucket.org/fernandoamat/tgmm-paper)
