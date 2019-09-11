@@ -60,10 +60,10 @@ apt install wget zip vim moreutils git build-essential libxml2
 wget https://github.com/Kitware/CMake/releases/download/v3.15.3/cmake-3.15.3.tar.gz
 tar xvf cmake-3.15.3.tar.gz 
 cd cmake-3.15.3
-./bootstrap && make -j && sudo make install
+./bootstrap && make -j && make install
 
-wget http://developer.download.nvidia.com/compute/cuda/10.1/Prod/local_installers/cuda_10.1.243_418.87.00_linux.run
-sh cuda_10.1.243_418.87.00_linux.run
+wget https://developer.nvidia.com/compute/cuda/10.0/Prod/local_installers/cuda_10.0.130_410.48_linux
+sh cuda_10.0.130_410.48_linux
 
 
 git clone https://bitbucket.org/fernandoamat/tgmm-paper.git
